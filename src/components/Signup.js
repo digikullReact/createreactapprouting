@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { Button, Checkbox, Form, Input } from 'antd';
 import { Col, Row } from 'antd';
 
@@ -8,6 +8,8 @@ import axios from 'axios';
 
 
 const Signup = () => {
+ 
+
 
   const onFinish = (values) => {
     
